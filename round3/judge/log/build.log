@@ -1,0 +1,47 @@
+cmake version 3.19.0
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qian/player3/sdk/build
+cmake return: 0
+make: Warning: File 'Makefile' has modification time 1.6 s in the future
+make[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 1.7 s in the future
+make[2]: Warning: File 'source/CMakeFiles/source-objects.dir/flags.make' has modification time 1.6 s in the future
+Scanning dependencies of target source-objects
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'source/CMakeFiles/source-objects.dir/flags.make' has modification time 1.5 s in the future
+[ 33%] Building CXX object source/CMakeFiles/source-objects.dir/data.cpp.o
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[ 33%] Built target source-objects
+make[2]: Warning: File 'CMakeFiles/Embedded-2021.dir/flags.make' has modification time 0.72 s in the future
+Scanning dependencies of target Embedded-2021
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File 'CMakeFiles/Embedded-2021.dir/flags.make' has modification time 0.62 s in the future
+[ 66%] Building CXX object CMakeFiles/Embedded-2021.dir/main.cpp.o
+[100%] Linking CXX executable /home/qian/player3/sdk/bin/Embedded-2021
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target Embedded-2021
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make return: 0
